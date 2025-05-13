@@ -1,0 +1,29 @@
+.footer {
+    background-color: #2e3f4f;
+    color: #fefae0;
+    text-align: center;
+    padding: 16px;
+    border-top: 4px solid #94bfa3;
+    font-size: 0.85rem;
+    margin-top: auto;
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+
+}
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+    margin-top: 8px;
+}
+
+.icon {
+    font-size: 24px;
+    color: #fefae0;
+    transition: color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+}
+
+.icon:hover {
+    color: #94bfa3;
+    transform: scale(1.15);
+}

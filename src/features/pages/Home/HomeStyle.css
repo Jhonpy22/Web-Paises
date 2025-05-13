@@ -1,0 +1,33 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: #e3ede7; /* color suave, agradable a la vista */
+    font-family: 'Segoe UI', sans-serif;
+    color: #2e3f4f;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+.icono-mundo {
+    width: 60px;
+    height: auto;
+    margin-bottom: 12px;
+}
+
+.hero {
+    background-color: #2e3f4f;
+    color: #fefae0;
+    padding: 40px 20px;
+    background-image: url(https://www.mapade.org/wp-content/uploads/Mapa-hidrogr%C3%A1fico-de-Centroamerica.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 12px;
+}
+.hero p {
+    font-size: 1.2rem;
+    color: #cfe0c3;
+}
